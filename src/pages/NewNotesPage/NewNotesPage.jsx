@@ -1,8 +1,11 @@
+import NewNoteForm from "../../components/NewNoteForm/NewNoteForm";
+
+
 export default function NewNotePage() {
   return (
-    <div>
-      <h1>Add A Note</h1>
-
+    <div className="flex-c">
+      <h1>Add a note 📌</h1>
+      <NewNoteForm />
     </div>
   );
 }

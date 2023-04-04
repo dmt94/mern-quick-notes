@@ -2,8 +2,14 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const noteSchema = new Schema({
-  author: String,
-  text: String
+  user: {
+    type: Schema.Types.ObjectId,
+    ref: 'User'
+  },
+  text: {
+    type: String,
+    required: true
+  }
 }, {
   timestamps: true
 });

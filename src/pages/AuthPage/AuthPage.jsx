@@ -13,7 +13,7 @@ export default function AuthPage({ user, setUser }) {
   return (
     <>
       <main>
-        <button className='sign-up-toggle' onClick={handleSignUpView}>
+        <button className='sign-up-toggle' onClick={ handleSignUpView }>
           {toggle ? "View Login" : "View Sign Up"}
           </button>
         {

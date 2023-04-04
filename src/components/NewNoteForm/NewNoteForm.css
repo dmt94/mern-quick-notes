@@ -1,0 +1,28 @@
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-note-form textarea {
+  border-radius: 19px;
+  padding: 2vmin;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.new-note-form button {
+  background-color: rgba(199, 125, 226, 0.625);
+  font-size: 3vmin;
+  border-radius: 10px;
+  border: none;
+}
+
+.new-note-form button:hover {
+  background-color: rgb(186, 161, 234);
+}
