@@ -8,8 +8,8 @@ module.exports = {
 
 async function create(req, res) {
   req.body.user = req.user;
-  console.log("req body:", req.body);
   const note = await Note.create(req.body);
+  console.log(note);
   res.json(note);
 }
 

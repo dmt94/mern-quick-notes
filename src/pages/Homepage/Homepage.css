@@ -1,3 +1,36 @@
 .homepage-div h1 {
   font-size: 40px;
 }
+
+.flex-row {
+  display: flex;
+}
+
+.notes-description {
+  text-align: left;
+}
+
+.div-notes {
+  background-color: rgba(240, 248, 255, 0.825);
+  padding: 4vmin;
+  border-radius: 6px;
+  margin: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-notes button {
+  width: 40px;
+  height: 40px;
+  margin-left: 4vmin;
+  padding:0;
+  border-radius: 50px;
+  font-size: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.div-notes button:hover {
+  background-color: rgb(201, 24, 24);
+  color: white;
+  box-shadow: none;
+}
