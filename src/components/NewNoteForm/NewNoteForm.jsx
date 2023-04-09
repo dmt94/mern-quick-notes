@@ -24,8 +24,8 @@ const NewNoteForm = () => {
         <textarea name="new-note" id="new-note" cols="30" rows="10" value={ note.text }
         onChange={ handleChange }
         ></textarea>
-        <button type="submit">Add</button>
-      </form>
+        <button type="submit">Add Note</button>
+      </form> 
     </>
    );
 }
