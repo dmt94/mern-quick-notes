@@ -12,9 +12,9 @@ export default function NavBar({ user, setUser }) {
       <span>Welcome, {user.name}!</span>
       <div>
         <Link to="/notes/new" className="nav-link">Add note</Link>
-        &nbsp; | &nbsp; 
+        &nbsp; 🍒 &nbsp; 
         <Link to="/" className="nav-link">View All Notes</Link>
-        &nbsp; | &nbsp; 
+        &nbsp; 🍒 &nbsp; 
         <Link to="" onClick={ handleLogOut } className="nav-link">Log out</Link>
       </div>
     </nav>

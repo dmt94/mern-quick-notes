@@ -6,6 +6,7 @@ import AuthPage from '../AuthPage/AuthPage';
 import NewNotesPage from '../NewNotesPage/NewNotesPage';
 import Homepage from '../Homepage/Homepage';
 import NavBar from '../../components/NavBar/NavBar';
+import Footer from '../../components/Footer/Footer';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -19,6 +20,7 @@ export default function App() {
               <Route path="/notes/new" element={<NewNotesPage />} />
               <Route path="/" element={<Homepage />} />
             </Routes>
+            <Footer />
           </>
           : <AuthPage user={user} setUser={setUser} />
       }
